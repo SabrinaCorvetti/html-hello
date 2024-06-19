@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
+}
+
+.wrapper {
+  max-width: 800px;
+  padding: 0 10px 10px 10px;
+  border: 2px solid #f0f0f0;
+  border-bottom: 0px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  overflow: hidden;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.payment {
+  background-color: #f7f7f7;
+  padding-top: 8px;
+}
+
+.missing-alert {
+  display: flex;
+  align-items: center;
+  background-color: #f8d7da;
+  color: #731d24;
+  margin: 8px;
+  border: 1px solid #f5c8cd;
+  border-radius: 3px;
+}
+
+.missing-alert p {
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.top-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#card-num {
+  width: 300px;
+}
+#dol-amount {
+  width: 100%;
+}
+#first-name,
+#last-name {
+  width: 380px;
+  margin-bottom: 20px;
+}
+
+.middle-right-center-div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+#postal-code {
+  width: 220px;
+}
+
+#message {
+  width: 100%;
+}
+
+.notes {
+  display: block;
+  font-size: 14px;
+}
+
+.bottom-div {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  background-color: #f7f7f7;
+  padding: 8px;
+  margin-bottom: 50px;
+  border: 2px solid #f0f0f0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+select {
+  font-size: 14px;
+  padding: 2px;
+}
+
+.radio-div {
+  display: flex;
+  justify-content: center;
+  background-color: #6c757d;
+  gap: 10px;
+  width: 165px;
+  border-radius: 3px;
+  align-items: center;
+  padding: 4px;
+}
+
+.c-card-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+i {
+  color: white;
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  width: 10px;
+  height: 10px;
+  margin-right: 3px;
+  accent-color: #6c757d;
+}
+
+input[type="radio"]:focus-within {
+  color: #000;
+}
